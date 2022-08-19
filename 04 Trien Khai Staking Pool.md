@@ -21,3 +21,11 @@ Nếu kết quả chạy lệnh trên màn hình hiển thị có cum từ "The 
 Hiện tại mỗi lần tạo staking pool bạn sẽ bị trừ 30 near trong ví.
   
 Vì RPC của near có lúc sẽ quá tải gây ra tình trạng tạo staking pool lỗi. Nếu tạo lỗi bạn tạo lại bằng lệnh phía trên.
+
+### Stake NEAR
+
+near call <pool_id> deposit_and_stake --amount <amount> --accountId <accountId> --gas=300000000000000
+
+* Thay <pool_id> bằng xxxx.factory.shardnet.near. xxxx là địa chỉ ví của bạn
+* Thay <amount> bằng số lượng near bạn muốn stake
+* Thay <accountId> bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
