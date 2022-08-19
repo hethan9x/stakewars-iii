@@ -72,3 +72,4 @@ echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
 echo 'export NEAR_ENV=shardnet' >> ~/.bash_profile
 source $HOME/.bash_profile
 ```
+![img](./image/Near-CLI-05.png)
