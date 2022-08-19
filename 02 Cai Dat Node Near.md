@@ -107,3 +107,11 @@ export PATH="$USER_BASE_BIN:$PATH"
 ```
 sudo apt install clang build-essential make
 ```
+#### Cài đặt Rust & Cargo
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+Nếu bạn thấy thông báo lỗi, gõ Y và Enter để tiếp tục.
+
+Sau đó gõ 1 và Enter để tiếp tục cài đặt.
+![img](./image/Node-Near-02.png)
