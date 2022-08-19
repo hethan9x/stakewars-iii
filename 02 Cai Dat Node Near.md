@@ -114,6 +114,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Nếu bạn thấy thông báo lỗi, gõ Y và Enter để tiếp tục.
 
 Sau đó gõ 1 và Enter để tiếp tục cài đặt.
+
 ![img](./image/Node-Near-02.png)
 
 #### Tạo môi trường
@@ -133,4 +134,7 @@ Mã commit sẽ thay đổi theo thời gian. Các bạn lấy mã commit [tại
 git checkout <commit>
 ```
 Thay <commit> bằng mã được lấy trong file ở trên
+
 ![img](./image/Node-Near-03.png)
+
+#### Biên dịch Nearcore
