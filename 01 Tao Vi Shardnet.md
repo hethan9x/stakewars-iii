@@ -7,3 +7,7 @@ Kích chọn "Create Account"
 Nhập tên tài khoản mà bạn muốn tạo. Sau đó kích chọn "Reserve My Account ID"
 
 ![img](./image/Shardnet-Wallet-02.png)
+
+Chọn phương thức bảo mật "Secure Passphrase". Sau đó kích chọn "Continue"
+
+![img](./image/Shardnet-Wallet-03.png)
