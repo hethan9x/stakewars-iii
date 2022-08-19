@@ -2,4 +2,4 @@ Truy cập https://wallet.shardnet.near.org/
 
 Kích chọn "Create Account"
 
-![img](./images/Home-Shardnet-Wallet.png)
+![img](./image/Home-Shardnet-Wallet.png)
