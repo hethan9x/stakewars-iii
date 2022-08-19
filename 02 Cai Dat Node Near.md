@@ -44,3 +44,13 @@ PATH="$PATH"
 Khi được hỏi "Do you want to continue? [Y/n]", bạn chọn Y và Enter để tiếp tục
 
 ![img](./image/Near-CLI-02.png)
+
+### Kiểm tra phiên bản Node.js và npm
+```
+node -v
+```
+
+```
+npm -v
+```
+
