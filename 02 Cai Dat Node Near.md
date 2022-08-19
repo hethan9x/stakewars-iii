@@ -115,3 +115,22 @@ Nếu bạn thấy thông báo lỗi, gõ Y và Enter để tiếp tục.
 
 Sau đó gõ 1 và Enter để tiếp tục cài đặt.
 ![img](./image/Node-Near-02.png)
+
+#### Tạo môi trường
+```
+source $HOME/.cargo/env
+```
+#### Tạo bản sao Nearcore từ GitHub
+```
+git clone https://github.com/near/nearcore
+cd nearcore
+git fetch
+```
+#### Kiểm tra commit
+
+Mã commit sẽ thay đổi theo thời gian. Các bạn lấy mã commit [tại đây](https://github.com/near/stakewars-iii/blob/main/commit.md).
+```
+git checkout <commit>
+```
+Thay <commit> bằng mã được lấy trong file ở trên
+![img](./image/Node-Near-03.png)
