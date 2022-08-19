@@ -16,7 +16,7 @@ Google Cloud đang có chương trình dùng thử cho khách hàng mới, bạn
 
 Để SSH vào VPS của Google Cloud các bạn vào Console của Google Cloud, kích vào mũi tên xuống bên cạnh chữ "SSH" chọn "Open in browser window" sẽ có một cửa sổ trình duyệt mở ra. 
 
-### Kiểm tra VPS của bạn có phù hợp với yêu cầu của Near
+#### Kiểm tra VPS của bạn có phù hợp với yêu cầu của Near
 
 ```
 lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
@@ -29,7 +29,7 @@ Nếu VPS của bạn hiểu thị "Supported" là ok.
 
 ![img](./image/Near-CLI-01.png)
 
-### Cập nhật VPS
+#### Cập nhật VPS
 
 ```
 sudo apt update && sudo apt upgrade -y
