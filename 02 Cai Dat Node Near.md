@@ -73,3 +73,11 @@ echo 'export NEAR_ENV=shardnet' >> ~/.bash_profile
 source $HOME/.bash_profile
 ```
 ![img](./image/Near-CLI-05.png)
+
+Để kiểm tra xem Near CLI đã hoạt động chưa bạn thực hiện lệnh
+```
+near proposals
+```
+Kết quả hiển như các địa chỉ pool như trong ảnh là ok
+
+![img](./image/Near-CLI-06.png)
