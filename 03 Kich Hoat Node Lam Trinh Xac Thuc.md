@@ -28,3 +28,24 @@ Nhập địa chỉ ví và kích chọn "Confirm"
 Sau đó có một màn hình lỗi xuất hiện. Bạn quay lại trình ssh tới vps, nhập lại địa chỉ ví và nhấn enter. Màn hình xuất hiện như hình dưới là đã kết nối thành công.
 
 ![img](./image/Kich-Hoat-Node-06.png)
+
+### Cấu hình validator key
+
+```
+cat ~/.near/validator_key.json
+```
+> cat: /home/hoangds_pd/.near/validator_key.json: No such file or directory
+
+Chưa có file validator nên chúng ta tiến hành tạo file
+
+```
+near generate-key <pool_id>
+```
+Trong đó <pool_id> sẽ là: xxxx.factory.shardnet.near. xxxx là tên ví shardnet của các bạn.
+
+```
+cp ~/.near-credentials/shardnet/YOUR_WALLET.json ~/.near/validator_key.json
+```
+Trong đó YOUR_WALLET.json sẽ là: xxxx.shardnet.near. xxxx là tên ví shardnet của các bạn.
+
+![img](./image/Kich-Hoat-Node-07.png)
