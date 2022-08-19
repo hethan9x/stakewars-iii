@@ -133,7 +133,6 @@ Mã commit sẽ thay đổi theo thời gian. Các bạn lấy mã commit [tại
 ```
 git checkout <commit>
 ```
-Thay <commit> bằng mã được lấy trong file ở trên
 
 ![img](./image/Node-Near-03.png)
 
