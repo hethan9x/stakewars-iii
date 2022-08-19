@@ -8,7 +8,9 @@ Các bạn chuẩn bị 01 VPS có cấu hình theo yêu cầu của bên Near:
 | RAM            | 8GB DDR4                                                              |
 | Storage        | 500GB SSD                                                             |
 
-Mình có sẵn vps của Google Cloud. Nên trong bài viết này mình sẽ hướng dẫn các bạn cài đặt Node Near trên VPS của Google Cloud.
+Cài đặt hệ điều hành ubuntu 20.04 LTS.
+
+Google Choud đang có chương trình dùng thử cho khách hàng mới, bạn sẽ nhận được khoản tín dụng 300 USD để sử dụng trong 3 tháng. Nên trong bài viết này mình hướng dẫn các bạn cài đặt Node Near trên Google Cloud.
 
 ### Cài đặt NEAR-CLI
 
