@@ -50,7 +50,7 @@ Trong đó YOUR_WALLET.json sẽ là: xxxx.shardnet.near. xxxx là tên ví shar
 
 ![img](./image/Kich-Hoat-Node-07.png)
 
-### Sau đó chỉnh sửa lại file validator_key.json
+### Chỉnh sửa lại file validator_key.json
 
 ```
 nano ~/.near/validator_key.json
@@ -96,3 +96,30 @@ Trong đó <USER> là tên người dùng của vps của bạn
 Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
 
 ![img](./image/Kich-Hoat-Node-10.png)
+  
+### Khởi chạy Node Near
+  
+```
+sudo systemctl enable neard
+```
+```
+sudo systemctl start neard
+```
+
+Kiểm tra logs
+  
+```
+journalctl -n 100 -f -u neard
+```
+
+![img](./image/Kich-Hoat-Node-11.png)
+
+Nếu bạn thấy lỗi không thể khởi chạy Neard. Khởi động lại VPS bằng cách chạy lệnh
+  
+```
+sudo reboot
+```
+
+Sau đó start Neard và tiếp tục kiểm tra logs. Nếu logs hiển thị như ảnh là thành công!
+
+![img](./image/Kich-Hoat-Node-12.png)
