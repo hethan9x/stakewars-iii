@@ -49,3 +49,49 @@ cp ~/.near-credentials/shardnet/YOUR_WALLET.json ~/.near/validator_key.json
 Trong đó YOUR_WALLET.json sẽ là: xxxx.shardnet.near. xxxx là tên ví shardnet của các bạn.
 
 ![img](./image/Kich-Hoat-Node-07.png)
+
+### Sau đó chỉnh sửa lại file validator_key.json
+
+```
+nano ~/.near/validator_key.json
+```
+* Sửa private_key thành secret_key
+* Đổi <account_id> thành xxxx.factory.shardnet.near. xxxx là tên ví shardnet của các bạn
+
+![img](./image/Kich-Hoat-Node-08.png)
+
+Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
+
+### Tạo file service để giữ cho Node Near luôn chạy
+
+```
+sudo nano /etc/systemd/system/neard.service
+```
+
+Copy và paste đoạn dưới đây vào file
+
+```
+[Unit]
+Description=NEARd Daemon Service
+
+[Service]
+Type=simple
+User=<USER>
+#Group=near
+WorkingDirectory=/home/<USER>/.near
+ExecStart=/home/<USER>/nearcore/target/release/neard run
+Restart=on-failure
+RestartSec=30
+KillSignal=SIGINT
+TimeoutStopSec=45
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+```
+Trong đó <USER> là tên người dùng của vps của bạn
+
+![img](./image/Kich-Hoat-Node-09.png)
+  
+Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
+
