@@ -12,7 +12,7 @@ Cài đặt hệ điều hành ubuntu 20.04 LTS.
 
 Google Cloud đang có chương trình dùng thử cho khách hàng mới, bạn sẽ nhận được khoản tín dụng 300 USD để sử dụng trong 3 tháng. Nên trong bài viết này mình hướng dẫn các bạn cài đặt Node Near trên Google Cloud. Như vậy đã SSH được tới VPS của Google Cloud.
 
-### Cài đặt NEAR-CLI
+## Cài đặt NEAR-CLI
 
 Để SSH vào VPS của Google Cloud các bạn vào Console của Google Cloud, kích vào mũi tên xuống bên cạnh chữ "SSH" chọn "Open in browser window" sẽ có một cửa sổ trình duyệt mở ra. 
 
@@ -28,3 +28,10 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 Nếu VPS của bạn hiểu thị "Supported" là ok.
 
 ![img](./image/Near-CLI-01.png)
+
+Cập nhật VPS
+
+```
+sudo apt update && sudo apt upgrade -y
+```
+Cài đặt Node.js and npm
