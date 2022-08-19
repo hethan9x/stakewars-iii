@@ -61,3 +61,14 @@ npm -v
 sudo npm install -g near-cli
 ```
 ![img](./image/Near-CLI-04.png)
+
+### Thiết lập môi trường thử nghiệm
+
+```
+export NEAR_ENV=shardnet
+```
+```
+echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
+echo 'export NEAR_ENV=shardnet' >> ~/.bash_profile
+source $HOME/.bash_profile
+```
