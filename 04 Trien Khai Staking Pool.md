@@ -17,3 +17,7 @@ nano ~/.near/validator_key.json
 Nếu kết quả chạy lệnh trên màn hình hiển thị có cum từ "The staking pool xxxx.factory.shardnet.near was successfully created" hoặc "The staking pool account ID already exists" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
   
 ![img](./image/Staking-Pool-01.png)
+
+Hiện tại mỗi lần tạo staking pool bạn sẽ bị trừ 30 near trong ví.
+  
+Vì RPC của near có lúc sẽ quá tải gây ra tình trạng tạo staking pool lỗi. Nếu tạo lỗi bạn tạo lại bằng lệnh phía trên.
