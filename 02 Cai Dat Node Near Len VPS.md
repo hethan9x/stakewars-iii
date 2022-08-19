@@ -26,7 +26,6 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 > Supported
 
 Nếu VPS của bạn hiểu thị "Supported" là ok.
-
 ![img](./image/Near-CLI-01.png)
 
 #### Cập nhật VPS
