@@ -54,3 +54,10 @@ node -v
 npm -v
 ```
 ![img](./image/Near-CLI-03.png)
+
+### Cài đặt NEAR-CLI
+
+```
+sudo npm install -g near-cli
+```
+![img](./image/Near-CLI-04.png)
