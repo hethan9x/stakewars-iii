@@ -5,7 +5,7 @@ Khởi tạo một Staking Pool với cho trình xác thực của bạn bằng 
 near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool name>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="<accountId>" --amount=30 --gas=300000000000000
 ```
 
-* Thay "pool name" bằng pool name của bạn
+* Thay <pool name> bằng pool name của bạn
 * Thay "accountId" bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
 * Thay "public key" bằng public key được lấy trong file validator_key.json
 
