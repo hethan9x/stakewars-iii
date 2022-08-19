@@ -1,4 +1,4 @@
-### Chuẩn bị VPS (VPS Google Cloud)
+## Chuẩn bị VPS (VPS Google Cloud)
 Các bạn chuẩn bị 01 VPS có cấu hình theo yêu cầu của bên Near:
 
 
@@ -16,7 +16,7 @@ Google Cloud đang có chương trình dùng thử cho khách hàng mới, bạn
 
 Để SSH vào VPS của Google Cloud các bạn vào Console của Google Cloud, kích vào mũi tên xuống bên cạnh chữ "SSH" chọn "Open in browser window" sẽ có một cửa sổ trình duyệt mở ra. 
 
-Kiểm tra VPS của bạn có phù hợp với yêu cầu của Near
+### Kiểm tra VPS của bạn có phù hợp với yêu cầu của Near
 
 ```
 lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
@@ -29,9 +29,18 @@ Nếu VPS của bạn hiểu thị "Supported" là ok.
 
 ![img](./image/Near-CLI-01.png)
 
-Cập nhật VPS
+### Cập nhật VPS
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-Cài đặt Node.js and npm
+### Cài đặt Node.js and npm
+
+```
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -  
+sudo apt install build-essential nodejs
+PATH="$PATH"
+```
+Khi được hỏi "Do you want to continue? [Y/n]", bạn chọn Y và Enter để tiếp tục
+
+![img](./image/Near-CLI-02.png)
