@@ -138,3 +138,8 @@ Thay <commit> bằng mã được lấy trong file ở trên
 ![img](./image/Node-Near-03.png)
 
 #### Biên dịch Nearcore
+
+Trong thư mục nearcore các bạn chạy lệnh
+```
+cargo build -p neard --release --features shardnet
+```
