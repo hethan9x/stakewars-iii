@@ -53,4 +53,4 @@ node -v
 ```
 npm -v
 ```
-
+![img](./image/Near-CLI-03.png)
