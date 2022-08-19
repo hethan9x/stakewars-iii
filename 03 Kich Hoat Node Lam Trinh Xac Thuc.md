@@ -95,3 +95,4 @@ Trong đó <USER> là tên người dùng của vps của bạn
   
 Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
 
+![img](./image/Kich-Hoat-Node-10.png)
