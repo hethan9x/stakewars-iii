@@ -62,7 +62,7 @@ sudo npm install -g near-cli
 ```
 ![img](./image/Near-CLI-04.png)
 
-### Thiết lập môi trường thử nghiệm
+Thiết lập môi trường thử nghiệm
 
 ```
 export NEAR_ENV=shardnet
