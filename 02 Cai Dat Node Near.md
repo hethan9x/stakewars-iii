@@ -146,3 +146,22 @@ cargo build -p neard --release --features shardnet
 Quá trình này mất khoảng 10 phút, thời gian phụ thuộc vào cấu hình VPS
 
 ![img](./image/Node-Near-04.png)
+
+#### Tạo thư mực làm việc
+
+Trong thư mục nearcore các bạn chạy lệnh
+```
+./target/release/neard --home ~/.near init --chain-id shardnet --download-genesis
+```
+![img](./image/Node-Near-05.png)  
+
+#### Thay đổi file config.json
+  
+```
+rm ~/.near/config.json
+wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json
+```
+![img](./image/Node-Near-06.png)
+  
+#### Khởi chạy Node
+  
