@@ -11,3 +11,11 @@ Nhập tên tài khoản mà bạn muốn tạo. Sau đó kích chọn "Reserve 
 Chọn phương thức bảo mật "Secure Passphrase". Sau đó kích chọn "Continue"
 
 ![img](./image/Shardnet-Wallet-03.png)
+
+Trên màn hình sẽ hiện cụm từ 12 ký tự bảo mật. Các bạn lưu 12 ký tự này lại và kích chọn "Continue"
+
+![img](./image/Shardnet-Wallet-04.png)
+
+Tìm từ khoá theo đúng thứ tự trọng 12 ký tự vừa lưu ở bước trên nhập vào để xác thực cụm từ khoá bảo mật. Ở trong ví dụ mình đang thực hiện ký tự thứ 7 là "become". Nhập "become" vào ô và kích chọn "Verify & Complete"
+
+![img](./image/Shardnet-Wallet-05.png)
