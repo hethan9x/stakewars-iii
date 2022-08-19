@@ -29,3 +29,5 @@ near call <pool_id> deposit_and_stake --amount <amount> --accountId <accountId> 
 * Thay <pool_id> bằng xxxx.factory.shardnet.near. xxxx là địa chỉ ví của bạn
 * Thay <amount> bằng số lượng near bạn muốn stake
 * Thay <accountId> bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
+  
+![img](./image/Staking-pool-02.png)
