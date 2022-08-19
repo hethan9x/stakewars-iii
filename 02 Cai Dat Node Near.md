@@ -144,3 +144,5 @@ Trong thư mục nearcore các bạn chạy lệnh
 cargo build -p neard --release --features shardnet
 ```
 Quá trình này mất khoảng 10 phút, thời gian phụ thuộc vào cấu hình VPS
+
+![img](./image/Node-Near-04.png)
