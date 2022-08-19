@@ -171,3 +171,6 @@ Trong thư mục nearcore các bạn chạy lệnh
 cd ~/nearcore
 ./target/release/neard --home ~/.near run
 ```
+![img](./image/Node-Near-07.png)
+  
+VPS đang tiến hành đồng bộ, các bạn để VPS tự chạy cho đến khi Headers tải đạt 100%. Việc này có thể mất hơn 1 giờ.
