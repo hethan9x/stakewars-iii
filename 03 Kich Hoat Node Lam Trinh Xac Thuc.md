@@ -121,5 +121,13 @@ sudo reboot
 ```
 
 Sau đó start Neard và tiếp tục kiểm tra logs. Nếu logs hiển thị như ảnh là thành công!
+  
+```
+sudo systemctl start neard
+```
+  
+```
+journalctl -n 100 -f -u neard
+```
 
 ![img](./image/Kich-Hoat-Node-12.png)
