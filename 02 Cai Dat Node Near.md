@@ -81,3 +81,29 @@ near proposals
 Kết quả hiển như các địa chỉ pool như trong ảnh là ok
 
 ![img](./image/Near-CLI-06.png)
+
+## Triển khai Node Near
+### Cài đặt các công cụ của nhà phát triển
+
+```
+sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev libiberty-dev cmake gcc g++ python3 docker.io protobuf-compiler libssl-dev pkg-config clang llvm cargo
+```
+### Cài đặt Python pip
+
+```
+sudo apt install python3-pip
+```
+Khi được hỏi "Do you want to continue? [Y/n]", bạn chọn Y và Enter để tiếp tục
+
+### Thiết lập cấu hình
+
+```
+USER_BASE_BIN=$(python3 -m site --user-base)/bin
+export PATH="$USER_BASE_BIN:$PATH"
+```
+![img](./image/Node-Near-01.png)
+
+### Cài đặt Building env
+```
+sudo apt install clang build-essential make
+```
