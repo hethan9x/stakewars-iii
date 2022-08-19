@@ -8,3 +8,12 @@ near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool 
 * Thay <pool name> bằng pool name của bạn
 * Thay <accountId> bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
 * Thay <public key> bằng public key được lấy trong file validator_key.json
+
+Truy cập file validator_key.json để lấy public key
+```
+nano ~/.near/validator_key.json
+```
+  
+Nếu kết quả chạy lệnh trên màn hình hiển thị có cum từ "The staking pool xxxx.factory.shardnet.near was successfully created" hoặc "The staking pool account ID already exists" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
+  
+![img](./image/Staking-Pool-01.png)
