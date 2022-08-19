@@ -165,3 +165,9 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
   
 #### Khởi chạy Node
   
+Trong thư mục nearcore các bạn chạy lệnh
+  
+```
+cd ~/nearcore
+./target/release/neard --home ~/.near run
+```
