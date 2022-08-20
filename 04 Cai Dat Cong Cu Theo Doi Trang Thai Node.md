@@ -66,3 +66,24 @@ http://ip_public:3030/status
 
 http://ip_publuc:3030/debug
 
+### Theo dõi trạng thái của node bằng bot thông báo trên Telegram
+
+Mình sẽ hướng dẫn các bạn sử dụng script của Klesh, setup bot Telegram sẽ báo mỗi khi node của bạn có sự thay đổi như khi node ONLINE / KICKED OUT / Đang Validator … tất cả sẽ thông báo về Telegram của bạn.
+"Nguồn: https://github.com/Klesh-/near-protocol-node-telegram-notifications"
+
+Bạn cần có tài khoản teleram, việc tạo tài khoản mình không hướng dẫn vì khi tham gia vào crypto chắc chắn ai cũng có telegram rồi.
+
+Tiếp theo bạn tạo 1 con bot cho mình trên telegram tại https://t.me/BotFather 
+
+Bạn kích vào Start sau đó chọn /newbot nhập tên bot mà bạn muốn tạo enter. 
+
+Khi tạo xong bot bạn hình sẽ hiển thị HTTP API và url bot của bạn mới tạo. Bạn lưu lại HTTP API
+
+![img](./image/Theo-doi-node-07.png)
+
+Bạn kích vào url bot của bạn và nhấn Start để cho phép bot gửi tin nhắn cho bạn
+
+Bạn truy cập bot  https://t.me/cid_bot, kích Start. Bạn sẽ hiện thị Your ChatID, Bạn lưu lại Chat ID.
+
+![img](./image/Theo-doi-node-08.png)
+
