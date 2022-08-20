@@ -135,7 +135,7 @@ Paste cái này vào crontab
 ```
 * * * * * cd "/home/<USER>/near-protocol-node-telegram-notifications"  && sudo bash report_node_status.sh
 ```
-Trong đó <USER> là username vps của bạn
+Trong đó USER là username vps của bạn
   
 ![img](./image/Theo-doi-node-11.png)
 
