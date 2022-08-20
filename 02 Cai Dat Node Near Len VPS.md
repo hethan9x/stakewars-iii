@@ -271,6 +271,11 @@ Bạn thêm "public_addrs": ["public key@public IP:24567"], vào sau đoạn
   "boot_nodes": "ed25519:2p3oWc....
   
   "whitelist_nodes": "",
+  
+* public_key là public key bạn lấy trong file node_key.json ở trên
+* public IP là địa chỉ ip vps của bạn
+
+
 
 ### Tạo file service để giữ cho Node Near luôn chạy
 
