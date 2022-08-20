@@ -104,3 +104,17 @@ sudo chmod +x ./report_node_status.sh
 ```
 ![img](./image/Theo-doi-node-09.png)
 
+Sửa file .env
+
+```
+nano .env
+```
+
+* TG_API_KEY là HTTP API
+* TG_CHAT_ID là ChatId
+* POOL_ID sửa thành id của ví của bạn
+
+![img](./image/Theo-doi-node-10.png)
+
+
+
