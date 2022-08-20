@@ -62,7 +62,7 @@ Bạn điền thông tin như hình ảnh bên dưới. Sau đó kích chọn "C
 
 Như vậy đã mở port 3030 thành công trên vps của bạn. Bạn có thể xem trạng thái của node theo đường dẫn:
 
-http://ip_public/status
+http://ip_public:3030/status
 
 http://ip_publuc:3030/debug
 
