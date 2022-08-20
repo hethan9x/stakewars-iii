@@ -244,6 +244,30 @@ nano ~/.near/validator_key.json
 
 Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
 
+### Chỉnh sửa lại file config.json
+
+Theo thông báo ngày 12/82022 trên discord của dự án. Các bạn cần thay đổi file config.json như sau
+
+Tìm “public_key” trong file  node_key.json
+
+```
+nano ~/.near/node_key.json
+```
+![img](./image/Sua-file-node-01.png)
+
+
+Chỉnh sửa file config.json
+
+```
+nano ~/.near/config.json
+```
+
+Bạn thêm "public_addrs": ["<public key>@<public IP>:24567"], vào sao đoạn
+  "network": {
+    "addr": "0.0.0.0:24567",
+    "boot_nodes": "ed25519:2p3oWc....
+    "whitelist_nodes": "",
+
 ### Tạo file service để giữ cho Node Near luôn chạy
 
 ```
