@@ -160,7 +160,7 @@ Trong thư mục nearcore các bạn chạy lệnh
 ```
 ![img](./image/Node-Near-05.png)  
 
-#### Thay đổi file config.json
+#### Tạo file config.json
   
 ```
 rm ~/.near/config.json
