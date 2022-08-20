@@ -60,5 +60,6 @@ cd near-protocol-node-telegram-notifications
 cp .env.example .env
 
 chmod +x ./report_node_status.sh
+
 ```
   
