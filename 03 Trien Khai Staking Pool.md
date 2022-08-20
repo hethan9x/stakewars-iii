@@ -48,4 +48,4 @@ Seat price = 1,833 thời điểm hiện tại bạn cần stake tối thiểu 1
 
 Do có quá nhiều account cheat số NEAR mạng test này nên team dev đã thay đổi quy trình, bây giờ bạn cần vào Discord của NEAR #stake-war phần #stake-wars-tokens_delegation. Gửi địa chỉ ví shardnet cùng pool id của bạn ở channel và chờ team sẽ gửi đủ số NEAR vào validator của bạn.
   
-  
+Sau khi có Near trong ví bạn thực hiện stake Near vào staking pool của mình bằng cách ở trên. 
