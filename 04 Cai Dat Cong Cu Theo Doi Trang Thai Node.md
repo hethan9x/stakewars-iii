@@ -81,11 +81,13 @@ Khi tạo xong bot bạn hình sẽ hiển thị HTTP API và url bot của bạ
 
 ![img](./image/Theo-doi-node-07.png)
 
-Bạn kích vào url bot của bạn và nhấn Start để cho phép bot gửi tin nhắn cho bạn
+Kích vào url bot của bạn và nhấn Start để cho phép bot gửi tin nhắn cho bạn
 
 Bạn truy cập bot  https://t.me/cid_bot, kích Start. Bạn sẽ hiện thị Your ChatID, Bạn lưu lại Chat ID.
 
 ![img](./image/Theo-doi-node-08.png)
+
+SSH vào VPS và thực hiện các lệnh sau
 
 ```
 cd
