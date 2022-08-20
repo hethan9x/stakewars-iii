@@ -262,11 +262,12 @@ Chỉnh sửa file config.json
 nano ~/.near/config.json
 ```
 
-Bạn thêm "public_addrs": ["<public key>@public IP:24567"], vào sao đoạn
-  ""network": {
+Bạn thêm "public_addrs": ["public key@public IP:24567"], vào sao đoạn
+
+  "network": {
     "addr": "0.0.0.0:24567",
     "boot_nodes": "ed25519:2p3oWc....
-    "whitelist_nodes": "","
+    "whitelist_nodes": "",
 
 ### Tạo file service để giữ cho Node Near luôn chạy
 
