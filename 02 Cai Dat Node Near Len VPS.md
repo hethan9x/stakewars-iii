@@ -275,7 +275,9 @@ Bạn thêm "public_addrs": ["public key@public IP:24567"], vào sau đoạn
 * public_key là public key bạn lấy trong file node_key.json ở trên
 * public IP là địa chỉ ip vps của bạn
 
+![img](./image/Sua-file-node-02.png)
 
+Bạn nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra.
 
 ### Tạo file service để giữ cho Node Near luôn chạy
 
