@@ -116,5 +116,13 @@ nano .env
 
 ![img](./image/Theo-doi-node-10.png)
 
+Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra.
+
+Đã cấu hình xong, chạy thử bằng lệnh
+
+```
+./report_node_status.sh
+```
+
 
 
