@@ -313,3 +313,5 @@ journalctl -n 100 -f -u neard
 ```
 
 ![img](./image/Kich-Hoat-Node-12.png)
+
+#### Sau khi hoàn thành việc khởi tạo một trình xác nhận bạn sẽ nhận được số điểm là 30 UNP (tương đương với 30 near được mở khoá)
