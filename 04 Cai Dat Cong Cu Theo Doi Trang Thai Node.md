@@ -135,6 +135,10 @@ Paste cái này vào crontab
 ```
 * * * * * cd "/home/<USER>/near-protocol-node-telegram-notifications"  && sudo bash report_node_status.sh
 ```
+Trong đó <USER> là username vps của bạn
+  
+![img](./image/Theo-doi-node-11.png)
+
 Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra. Từ giờ khi có biến động liên quan đến Node bạn sẽ nhận được thông báo trên telegram.
 
 Như vậy mình đã giới thiệu đầy đủ cho bạn 3 cách để theo dõi trạng thái của Node. Hiện tại mình đang dùng cả 3 cách này. Các bạn chọn cho mình một cách phù hợp nhé!
