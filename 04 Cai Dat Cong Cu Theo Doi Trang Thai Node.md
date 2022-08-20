@@ -47,3 +47,16 @@ Trên trang console của Google Cloud bạn kích vào dấu 3 gạch -> chọn
 Kích vào " Create Firewall Rule"
 
 ![img](./image/Theo-doi-node-04.png)
+
+Bạn điền thông tin như hình ảnh bên dưới. Sau đó kích chọn "Create"
+
+* Name: tên của rule
+* Targets: All instances in the network
+* IPv4 ranges: Source filte
+* Source IPv4 range: 0.0.0.0/0
+* Protocols and ports: Specified protocols and ports TCP: 3030 /  UDP: 3030
+
+![img](./image/Theo-doi-node-05.png)
+
+![img](./image/Theo-doi-node-06.png)
+
