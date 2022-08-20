@@ -44,7 +44,11 @@ sudo apt update && sudo apt upgrade -y
 
 ```
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -  
+```
+```
 sudo apt install build-essential nodejs
+```
+```
 PATH="$PATH"
 ```
 Khi được hỏi "Do you want to continue? [Y/n]", bạn chọn Y và Enter để tiếp tục
