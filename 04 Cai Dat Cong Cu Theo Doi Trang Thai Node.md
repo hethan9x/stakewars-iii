@@ -75,15 +75,15 @@ Bạn cần có tài khoản teleram, việc tạo tài khoản mình không hư
 
 Tiếp theo bạn tạo 1 con bot cho mình trên telegram tại https://t.me/BotFather 
 
-Bạn kích vào Start sau đó chọn /newbot nhập tên bot mà bạn muốn tạo enter. 
+Kích vào Start sau đó chọn /newbot nhập tên bot mà bạn muốn tạo enter. 
 
-Khi tạo xong bot bạn hình sẽ hiển thị HTTP API và url bot của bạn mới tạo. Bạn lưu lại HTTP API
+Khi tạo xong bot màn hình sẽ hiển thị HTTP API và url bot của bạn mới tạo. Bạn lưu lại HTTP API
 
 ![img](./image/Theo-doi-node-07.png)
 
 Kích vào url bot của bạn và nhấn Start để cho phép bot gửi tin nhắn cho bạn
 
-Bạn truy cập bot  https://t.me/cid_bot, kích Start. Bạn sẽ hiện thị Your ChatID, Bạn lưu lại Chat ID.
+Truy cập bot  https://t.me/cid_bot, kích Start. Bạn sẽ hiện thị Your ChatID, Bạn lưu lại Chat ID.
 
 ![img](./image/Theo-doi-node-08.png)
 
