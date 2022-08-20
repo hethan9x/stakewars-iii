@@ -50,16 +50,3 @@ Do có quá nhiều account cheat số NEAR mạng test này nên team dev đã 
   
 Sau khi có Near trong ví bạn thực hiện stake Near vào staking pool của mình bằng cách ở trên. 
 
-```
-cd
-
-git clone https://github.com/Klesh-/near-protocol-node-telegram-notifications.git
-
-cd near-protocol-node-telegram-notifications
-
-cp .env.example .env
-
-chmod +x ./report_node_status.sh
-
-```
-  
