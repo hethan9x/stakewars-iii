@@ -87,3 +87,18 @@ Bạn truy cập bot  https://t.me/cid_bot, kích Start. Bạn sẽ hiện thị
 
 ![img](./image/Theo-doi-node-08.png)
 
+```
+cd
+
+git clone https://github.com/Klesh-/near-protocol-node-telegram-notifications.git
+
+cd near-protocol-node-telegram-notifications
+
+cp .env.example .env
+
+sudo chmod +x ./report_node_status.sh
+
+
+```
+![img](./image/Theo-doi-node-09.png)
+
