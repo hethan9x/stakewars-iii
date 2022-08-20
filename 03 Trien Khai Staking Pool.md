@@ -31,3 +31,21 @@ near call <pool_id> deposit_and_stake --amount <amount> --accountId <accountId> 
 * Thay "accountId" bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
   
 ![img](./image/Staking-pool-02.png)
+  
+### Trở thành trình xác thực Validator
+  
+Để trở thành trình xác thực Validator bạn cần stake một số lượng Near trên mạng shardnet vào Staking pool của mình. Số lượng Near sẽ thay đổi theo từng Epoch.
+
+Để kiểm tra số lượng Near cần stake bạn thực hiên lệnh
+  
+```
+near validators next | grep "seat price"
+```
+
+![img](./image/seat-price.png)
+  
+Seat price = 1,833 thời điểm hiện tại bạn cần stake tối thiểu 1,833 Near
+
+Do có quá nhiều account cheat số NEAR mạng test này nên team dev đã thay đổi quy trình, bây giờ bạn cần vào Discord của NEAR #stake-war phần #stake-wars-tokens_delegation. Gửi địa chỉ ví shardnet cùng pool id của bạn ở channel và chờ team sẽ gửi đủ số NEAR vào validator của bạn.
+  
+  
