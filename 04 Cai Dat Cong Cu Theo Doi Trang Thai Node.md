@@ -64,7 +64,7 @@ Như vậy đã mở port 3030 thành công trên vps của bạn. Bạn có th�
 
 http://ip_public:3030/status
 
-http://ip_publuc:3030/debug
+http://ip_public:3030/debug
 
 ### Theo dõi trạng thái của node bằng bot thông báo trên Telegram
 
