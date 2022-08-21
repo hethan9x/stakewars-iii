@@ -110,7 +110,7 @@ nano .env
 
 * TG_API_KEY là HTTP API
 * TG_CHAT_ID là ChatId
-* POOL_ID sửa thành id của ví của bạn
+* {name} sửa thành id của ví của bạn
 
 ![img](./image/Theo-doi-node-10.png)
 
