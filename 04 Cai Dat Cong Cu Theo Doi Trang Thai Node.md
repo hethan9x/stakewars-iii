@@ -31,7 +31,6 @@ Kiểm tra Delegators and Stake
 ```
 near view <your pool>.factory.shardnet.near get_accounts '{"from_index": 0, "limit": 10}' --accountId <accountId>.shardnet.near
 ```
-![img](./images/Setup-Node-Near-36.png)
 
 Kiểm tra Reason Validator Kicked
 
