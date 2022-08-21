@@ -14,7 +14,7 @@ Truy cập file validator_key.json để lấy public key
 nano ~/.near/validator_key.json
 ```
   
-Nếu kết quả chạy lệnh trên màn hình hiển thị có cum từ "The staking pool xxxx.factory.shardnet.near was successfully created" hoặc "The staking pool account ID already exists" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
+Nếu kết quả chạy lệnh trên màn hình hiển thị "The staking pool xxxx.factory.shardnet.near was successfully created" hoặc "The staking pool account ID already exists" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
   
 ![img](./image/Staking-pool-01.png)
 
@@ -26,9 +26,9 @@ Vì RPC của near có lúc sẽ quá tải gây ra tình trạng tạo staking 
 
 near call <pool_id> deposit_and_stake --amount <amount> --accountId <accountId> --gas=300000000000000
 
-* Thay "pool_id" bằng xxxx.factory.shardnet.near. xxxx là địa chỉ ví của bạn
-* Thay "amount" bằng số lượng near bạn muốn stake
-* Thay "accountId" bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
+* Thay ```<pool_id>``` bằng xxxx.factory.shardnet.near. xxxx là địa chỉ ví của bạn
+* Thay ```<amount>``` bằng số lượng near bạn muốn stake
+* Thay ```<accountId>``` bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
   
 ![img](./image/Staking-pool-02.png)
   
