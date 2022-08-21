@@ -241,8 +241,8 @@ Trong đó YOUR_WALLET.json sẽ là: xxxx.shardnet.near. xxxx là tên ví shar
 ```
 nano ~/.near/validator_key.json
 ```
-* Sửa private_key thành secret_key
-* Đổi <account_id> thành xxxx.factory.shardnet.near. xxxx là tên ví shardnet của các bạn
+* Sửa ```private_key``` thành ```secret_key```
+* Đổi ```<account_id>``` thành xxxx.factory.shardnet.near. xxxx là tên ví shardnet của các bạn
 
 ![img](./image/Kich-Hoat-Node-08.png)
 
@@ -266,7 +266,7 @@ Chỉnh sửa file config.json
 nano ~/.near/config.json
 ```
 
-Bạn thêm "public_addrs": ["public key@public IP:24567"], vào sau đoạn
+Bạn thêm ```"public_addrs": ["<public key>@<public IP>:24567"],``` vào sau đoạn
 
   "network": {
   
@@ -276,8 +276,8 @@ Bạn thêm "public_addrs": ["public key@public IP:24567"], vào sau đoạn
   
   "whitelist_nodes": "",
   
-* public_key là public key bạn lấy trong file node_key.json ở trên
-* public IP là địa chỉ ip vps của bạn
+* ```<public key>``` là public key bạn lấy trong file node_key.json ở trên
+* ```<public IP>``` là địa chỉ ip vps của bạn
 
 ![img](./image/Sua-file-node-02.png)
 
