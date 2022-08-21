@@ -99,8 +99,6 @@ cd near-protocol-node-telegram-notifications
 cp .env.example .env
 
 sudo chmod +x ./report_node_status.sh
-
-
 ```
 ![img](./image/Theo-doi-node-09.png)
 
