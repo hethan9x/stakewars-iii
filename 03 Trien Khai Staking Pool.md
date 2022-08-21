@@ -50,3 +50,29 @@ Do có quá nhiều account cheat số NEAR mạng test này nên team dev đã 
   
 Sau khi có Near trong ví bạn thực hiện stake Near vào staking pool của mình bằng cách ở trên. 
 
+### Unstake NEAR
+  
+```
+near call <pool_id> unstake '{"amount": "<amount yoctoNEAR>"}' --accountId <accountId> --gas=300000000000000
+```
+* Thay ```<pool_id>``` là xxxx.factory.shardnet.near. xxxx là địa chỉ ví của bạn
+* Thay ```<amount yoctoNEAR>``` bằng số lượng near bạn muốn stake
+* Thay ```<accountId>``` bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
+ 
+Unstake tất cả
+```
+near call <pool_id> unstake_all --accountId <accountId> --gas=300000000000000
+```
+
+### Withdraw
+
+Sau khi unstake thành công bạn cần chờ 2-3 epochs để hoàn thành việc unstake. Sau khi hoàn thành bạn có thể withdraw về ví mình bằng lệnh
+```
+near call <pool_id> withdraw '{"amount": "<amount yoctoNEAR>"}' --accountId <accountId> --gas=300000000000000
+```
+
+Withdraw tất cả
+
+```
+near call <pool_id> withdraw_all --accountId <accountId> --gas=300000000000000
+```
