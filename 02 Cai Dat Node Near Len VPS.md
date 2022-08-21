@@ -131,7 +131,7 @@ Sau đó gõ 1 và Enter để tiếp tục cài đặt.
 ```
 source $HOME/.cargo/env
 ```
-#### Tạo bản sao Nearcore từ GitHub
+#### Clone Nearcore từ GitHub
 ```
 git clone https://github.com/near/nearcore
 cd nearcore
@@ -156,7 +156,7 @@ Quá trình này mất khoảng 10 - 20 phút, thời gian phụ thuộc vào c�
 
 ![img](./image/Node-Near-04.png)
 
-#### Tạo thư mực làm việc
+#### Tạo thư mục làm việc
 
 Trong thư mục nearcore các bạn chạy lệnh
 ```
