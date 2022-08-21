@@ -103,7 +103,7 @@ sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev l
 ```
 sudo apt install python3-pip
 ```
-Khi được hỏi "Do you want to continue? [Y/n]", bạn chọn Y và Enter để tiếp tục
+Khi được hỏi "Do you want to continue? [Y/n]", bạn bấm Y và Enter để tiếp tục
 
 #### Thiết lập cấu hình
 
