@@ -1,6 +1,6 @@
 ### Triển khai Staking Pool
 
-Khởi tạo một Staking Pool với cho trình xác thực của bạn bằng cách chạy lệnh sau
+Khởi tạo một Staking Pool mới cho trình xác thực của bạn bằng cách chạy lệnh sau
 ```
 near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool name>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="<accountId>" --amount=30 --gas=300000000000000
 ```
