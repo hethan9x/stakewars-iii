@@ -14,57 +14,35 @@ journalctl -n 100 -f -u neard | ccze -A
 
 ![img](./image/Theo-doi-node-01.png)
 
-### Theo dõi trạng thái của node trên website
-
-Cài đặt
+Cài đặt công cụ
 
 ```
 sudo apt install curl jq
 ```
 
-Kiểm tra
+Kiểm tra phiên bản
 
 ```
 curl -s http://127.0.0.1:3030/status | jq .version
 ```
 
-Để theo dõi trạng thái của node nên trên website chúng ta cần mở port 3030. Google Cloud có hệ thống firewall được quản lý trên console nên việc sử dụng firewall trên vps là không cần thiết. Vì vậy đầu tiên các bạn tắt firewall mặc định của vps sau đó sẽ mở port trên firewall của Google Cloud.
-
-#### Tắt firewall trên vps
+Kiểm tra Delegators and Stake
 
 ```
-sudo ufw disable
+near view <your pool>.factory.shardnet.near get_accounts '{"from_index": 0, "limit": 10}' --accountId <accountId>.shardnet.near
 ```
+![img](./images/Setup-Node-Near-36.png)
 
-![img](./image/Theo-doi-node-02.png)
+Kiểm tra Reason Validator Kicked
 
-#### Mở port 3030 trên firewall của Google Cloud
+```
+curl -s -d '{"jsonrpc": "2.0", "method": "validators", "id": "dontcare", "params": [null]}' -H 'Content-Type: application/json' 127.0.0.1:3030 | jq -c '.result.prev_epoch_kickout[] | select(.account_id | contains ("<POOL_ID>"))' | jq .reason
+```
+Kiểm tra Blocks Produced / Expected
 
-Trên trang console của Google Cloud bạn kích vào dấu 3 gạch -> chọn VPC network -> chọn Firewall
-
-![img](./image/Theo-doi-node-03.png)
-
-Kích vào " Create Firewall Rule"
-
-![img](./image/Theo-doi-node-04.png)
-
-Bạn điền thông tin như hình ảnh bên dưới. Sau đó kích chọn "Create"
-
-* Name: tên của rule
-* Targets: All instances in the network
-* IPv4 ranges: Source filte
-* Source IPv4 range: 0.0.0.0/0
-* Protocols and ports: Specified protocols and ports TCP: 3030 /  UDP: 3030
-
-![img](./image/Theo-doi-node-05.png)
-
-![img](./image/Theo-doi-node-06.png)
-
-Như vậy đã mở port 3030 thành công trên vps của bạn. Bạn có thể xem trạng thái của node theo đường dẫn:
-
-http://ip_public:3030/status
-
-http://ip_public:3030/debug
+```
+curl -r -s -d '{"jsonrpc": "2.0", "method": "validators", "id": "dontcare", "params": [null]}' -H 'Content-Type: application/json' 127.0.0.1:3030 | jq -c '.result.current_validators[] | select(.account_id | contains ("POOL_ID"))'
+```
 
 ### Theo dõi trạng thái của node bằng bot thông báo trên Telegram
 
