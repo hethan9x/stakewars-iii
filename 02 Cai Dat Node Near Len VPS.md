@@ -48,10 +48,10 @@ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 sudo apt install build-essential nodejs
 ```
+Khi được hỏi "Do you want to continue? [Y/n]", bạn nhấn Y và Enter để tiếp tục
 ```
 PATH="$PATH"
 ```
-Khi được hỏi "Do you want to continue? [Y/n]", bạn nhấn Y và Enter để tiếp tục
 
 ![img](./image/Near-CLI-02.png)
 
