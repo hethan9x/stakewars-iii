@@ -42,7 +42,7 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 
 Nếu VPS của bạn hiểu thị "Supported" là ok
 
-![img](./image/Near-cli-01.png)
+![img](./images/Near-cli-01.png)
 
 #### Cập nhật VPS
 
@@ -59,7 +59,7 @@ sudo apt install build-essential nodejs
 ```
 Khi được hỏi "Do you want to continue? [Y/n]", bạn nhấn Y và Enter để tiếp tục
 
-![img](./image/Near-CLI-02.png)
+![img](./images/Near-cli-02.png)
 
 ```
 PATH="$PATH"
@@ -73,14 +73,18 @@ node -v
 ```
 npm -v
 ```
-![img](./image/Near-CLI-03.png)
+![img](./images/Near-cli-03.png)
 
 #### Cài đặt NEAR-CLI
 
 ```
 sudo npm install -g near-cli
 ```
-![img](./image/Near-CLI-04.png)
+![img](./images/Near-cli-04.png)
+
+Update phiên bản của Near-CLI
+
+![img](./images/Near-cli-05.png)
 
 Thiết lập môi trường thử nghiệm
 
@@ -92,7 +96,7 @@ echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
 echo 'export NEAR_ENV=shardnet' >> ~/.bash_profile
 source $HOME/.bash_profile
 ```
-![img](./image/Near-CLI-05.png)
+![img](./images/Near-cli-06.png)
 
 Để kiểm tra xem Near CLI đã hoạt động chưa bạn thực hiện lệnh
 ```
@@ -100,7 +104,7 @@ near proposals
 ```
 Kết quả hiển như các địa chỉ pool như trong ảnh là ok
 
-![img](./image/Near-CLI-06.png)
+![img](./images/Near-cli-07.png)
 
 ## Triển khai Node Near
 #### Cài đặt các công cụ của nhà phát triển
