@@ -194,6 +194,8 @@ Trong thư mục nearcore các bạn chạy lệnh.
   
 ```
 cd ~/nearcore
+```
+```
 ./target/release/neard --home ~/.near run
 ```
 ![img](./images/Node-Near-07.png)
