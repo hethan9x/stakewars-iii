@@ -68,7 +68,8 @@ SSH vào VPS và thực hiện các lệnh sau
 
 ```
 cd
-
+```
+```
 git clone https://github.com/Klesh-/near-protocol-node-telegram-notifications.git
 ```
 ```
