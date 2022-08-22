@@ -12,7 +12,7 @@ Xem lịch sử chạy của node
 journalctl -n 100 -f -u neard | ccze -A
 ```
 
-![img](./image/Theo-doi-node-01.png)
+![img](./images/Status-Near-01.png)
 
 Cài đặt công cụ
 
@@ -56,13 +56,13 @@ Kích vào Start sau đó chọn /newbot nhập tên bot mà bạn muốn tạo 
 
 Khi tạo xong bot màn hình sẽ hiển thị HTTP API và url bot của bạn mới tạo. Bạn lưu lại HTTP API
 
-![img](./image/Theo-doi-node-07.png)
+![img](./images/Status-Near-02.png)
 
 Kích vào url bot của bạn và nhấn Start để cho phép bot gửi tin nhắn cho bạn
 
 Truy cập bot  https://t.me/cid_bot, kích Start. Bạn sẽ hiện thị Your ChatID, Bạn lưu lại Chat ID.
 
-![img](./image/Theo-doi-node-08.png)
+![img](./images/Status-Near-03.png)
 
 SSH vào VPS và thực hiện các lệnh sau
 
@@ -77,7 +77,7 @@ cp .env.example .env
 
 sudo chmod +x ./report_node_status.sh
 ```
-![img](./image/Theo-doi-node-09.png)
+![img](./images/Status-Near-04.png)
 
 Sửa file .env
 
@@ -89,7 +89,7 @@ nano .env
 * TG_CHAT_ID là ChatId
 * {name} sửa thành id của ví của bạn
 
-![img](./image/Theo-doi-node-10.png)
+![img](./images/Status-Near-05.png)
 
 Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra.
 
@@ -112,7 +112,7 @@ Paste cái này vào crontab
 ```
 Trong đó USER là username vps của bạn
   
-![img](./image/Theo-doi-node-11.png)
+![img](./images/Status-Near-06.png)
 
 Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra. Từ giờ khi có biến động liên quan đến Node bạn sẽ nhận được thông báo trên telegram.
 
