@@ -16,7 +16,7 @@ Trên màn hình sẽ hiện cụm từ 12 ký tự bảo mật. Các bạn lưu
 
 ![img](./images/Shardnet-wallet-04.png)
 
-Tìm từ khoá theo đúng yêu cầu trong 12 ký tự vừa lưu ở bước trên nhập vào để xác thực cụm từ khoá bảo mật. Ở trong ví dụ mình đang thực hiện ký tự thứ 7 là "become". Nhập "become" vào ô và kích chọn "Verify & Complete"
+Tìm từ khoá theo đúng yêu cầu trong 12 ký tự vừa lưu ở bước trên nhập vào để xác thực cụm từ khoá bảo mật. Ở trong ví dụ mình đang thực hiện ký tự thứ 3 là "catch". Nhập "catch" vào ô và kích chọn "Verify & Complete"
 
 ![img](./images/Shardnet-wallet-05.png)
 
