@@ -232,7 +232,7 @@ Bạn quay tab trình duyệt ssh tới vps, nhập lại địa chỉ ví và n
 
 ![img](./images/Active-Node-Near-06.png)
 
-### Cấu hình validator key
+### Tạo file validator_key.json
 
 ```
 cat ~/.near/validator_key.json
@@ -251,9 +251,9 @@ cp ~/.near-credentials/shardnet/YOUR_WALLET.json ~/.near/validator_key.json
 ```
 Trong đó YOUR_WALLET.json sẽ là: xxxx.shardnet.near. xxxx là tên ví shardnet của các bạn.
 
-![img](./image/Kich-Hoat-Node-07.png)
+![img](./images/Active-Node-Near-07.png)
 
-### Chỉnh sửa lại file validator_key.json
+### Chỉnh sửa file validator_key.json
 
 ```
 nano ~/.near/validator_key.json
@@ -261,11 +261,11 @@ nano ~/.near/validator_key.json
 * Sửa ```private_key``` thành ```secret_key```
 * Đổi ```<account_id>``` thành xxxx.factory.shardnet.near. xxxx là tên ví shardnet của các bạn
 
-![img](./image/Kich-Hoat-Node-08.png)
+![img](./images/Active-Node-Near-08.png)
 
-Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
+Sau đó bạn nhấn Ctr + O và Enter để lưu. Nhấn Ctrl + X để thoát.
 
-### Chỉnh sửa lại file config.json
+### Chỉnh sửa file config.json
 
 Theo thông báo ngày 12/82022 trên discord của dự án. Các bạn cần thay đổi file config.json như sau
 
