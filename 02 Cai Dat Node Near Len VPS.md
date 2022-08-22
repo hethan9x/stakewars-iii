@@ -18,13 +18,15 @@ Bạn truy cập vào console của Google Cloud, kích vào dấu 3 gạch, ch�
 ![img](./images/Google-cloud-01.png)
 
 Kích vào "Create instance" để khởi tạo vps
+
 ![img](./images/Google-cloud-02.png)
 ![img](./images/Google-cloud-03.png)
+
 Bạn điền tên vps lựa chọn các thông số vps sau đó kích "CREATE" để khởi tạo vps.
 
 Sau khi khởi tạo xong vps bạn sẽ được chuyển đến trang Console của Google Cloud. Để SSH vào VPS thực hiện lệnh cài đặt, bạn kích vào mũi tên xuống bên cạnh chữ "SSH" chọn "Open in browser window" sẽ có một cửa sổ trình duyệt mở ra. Bạn đã có thế bắt đầu thực hiện cách lệnh cài đặt ở trên cửa sổ trình duyệt mới.
 
-![img](./image/Google-Cloud-02.png)
+![img](./images/Google-cloud-04.png)
 
 ## Cài đặt NEAR-CLI
 
