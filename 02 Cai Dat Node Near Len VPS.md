@@ -222,11 +222,15 @@ Kích chọn "Connect" để xác nhận quyền truy cập
 
 Nhập địa chỉ ví và kích chọn "Confirm"
 
-![img](./image/Kich-Hoat-Node-04.png)
+![img](./images/Active-Node-Near-04.png)
 
-Sau đó có một màn hình lỗi xuất hiện. Bạn quay lại trình ssh tới vps, nhập lại địa chỉ ví và nhấn enter. Màn hình xuất hiện như hình dưới là đã kết nối thành công.
+Sau đó có một màn hình lỗi xuất hiện trên trình duyệt
 
-![img](./image/Kich-Hoat-Node-05.png)
+![img](./images/Active-Node-Near-05.png)
+
+Bạn quay tab trình duyệt ssh tới vps, nhập lại địa chỉ ví và nhấn enter. Màn hình xuất hiện như hình dưới là đã kết nối thành công.
+
+![img](./images/Active-Node-Near-06.png)
 
 ### Cấu hình validator key
 
