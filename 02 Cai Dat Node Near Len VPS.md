@@ -205,7 +205,7 @@ Sau khi Headers tải đạt 100% các bạn nhấm phím Ctrl + Z để thoát 
 ```
 near login
 ```
-Bạn sẽ được hỏi Would you like to opt in (y/n)? Bạn gõ y và enter để tiếp tục
+Bạn sẽ được hỏi "Would you like to opt in (y/n)?" Bạn nhấn y và Enter để tiếp tục.
 
 ![img](./images/Active-Node-Near-01.png)
 
