@@ -182,6 +182,8 @@ Trong thư mục nearcore các bạn chạy lệnh.
   
 ```
 rm ~/.near/config.json
+```
+```
 wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json
 ```
 ![img](./images/Node-Near-06.png)
