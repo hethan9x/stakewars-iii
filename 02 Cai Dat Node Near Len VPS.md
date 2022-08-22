@@ -353,8 +353,6 @@ Kiểm tra logs
 journalctl -n 100 -f -u neard
 ```
 
-![img](./image/Kich-Hoat-Node-11.png)
-
 Nếu bạn thấy lỗi không thể khởi chạy Neard. Khởi động lại VPS bằng cách chạy lệnh
   
 ```
@@ -371,6 +369,6 @@ sudo systemctl start neard
 journalctl -n 100 -f -u neard
 ```
 
-![img](./image/Kich-Hoat-Node-12.png)
+![img](./images/Active-Node-Near-13.png)
 
 #### Sau khi hoàn thành việc khởi tạo một trình xác nhận bạn sẽ nhận được số điểm là 30 UNP (tương đương với 30 near được mở khoá)
