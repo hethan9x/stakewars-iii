@@ -267,15 +267,14 @@ Sau đó bạn nhấn Ctr + O và Enter để lưu. Nhấn Ctrl + X để thoát
 
 ### Chỉnh sửa file config.json
 
-Theo thông báo ngày 12/82022 trên discord của dự án. Các bạn cần thay đổi file config.json như sau
+Theo thông báo ngày 12/8/2022 trên discord của dự án. Các bạn cần thay đổi file config.json như sau
 
 Tìm “public_key” trong file  node_key.json
 
 ```
 nano ~/.near/node_key.json
 ```
-![img](./image/Sua-file-node-01.png)
-
+![img](./images/Active-Node-Near-09.png)
 
 Chỉnh sửa file config.json
 
@@ -296,9 +295,9 @@ Bạn thêm ```"public_addrs": ["<public key>@<public IP>:24567"],``` vào sau �
 * ```<public key>``` là public key bạn lấy trong file node_key.json ở trên
 * ```<public IP>``` là địa chỉ ip vps của bạn
 
-![img](./image/Sua-file-node-02.png)
+![img](./images/Active-Node-Near-10.png)
 
-Bạn nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra.
+Bạn nhấn Ctrl + O và Enter để lưu file lại. Nhấn Ctrl + X để thoát ra.
 
 ### Tạo file service để giữ cho Node Near luôn chạy
 
