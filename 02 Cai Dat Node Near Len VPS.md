@@ -207,27 +207,26 @@ near login
 ```
 Bạn sẽ được hỏi Would you like to opt in (y/n)? Bạn gõ y và enter để tiếp tục
 
-![img](./image/Kich-Hoat-Node-01.png)
+![img](./images/Active-Node-Near-01.png)
 
 Copy link và mở trong trình duyệt đã tạo ví Shardnet trước đó
 
-![img](./image/Kich-Hoat-Node-02.png)
 
 Chọn ví mà bạn muốn kết nối sau đó kích chọn "Next"
 
-![img](./image/Kich-Hoat-Node-03.png)
+![img](./images/Active-Node-Near-02.png)
 
 Kích chọn "Connect" để xác nhận quyền truy cập
 
-![img](./image/Kich-Hoat-Node-04.png)
+![img](./images/Active-Node-Near-03.png)
 
 Nhập địa chỉ ví và kích chọn "Confirm"
 
-![img](./image/Kich-Hoat-Node-05.png)
+![img](./image/Kich-Hoat-Node-04.png)
 
 Sau đó có một màn hình lỗi xuất hiện. Bạn quay lại trình ssh tới vps, nhập lại địa chỉ ví và nhấn enter. Màn hình xuất hiện như hình dưới là đã kết nối thành công.
 
-![img](./image/Kich-Hoat-Node-06.png)
+![img](./image/Kich-Hoat-Node-05.png)
 
 ### Cấu hình validator key
 
