@@ -95,7 +95,7 @@ nano .env
 
 ![img](./images/Status-Near-05.png)
 
-Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra.
+Nhấn Ctrl + O và Enter để lưu file lại. Nhấn Ctrl + X để thoát ra.
 
 Đã cấu hình xong, chạy thử bằng lệnh
 
@@ -119,6 +119,8 @@ Trong đó USER là username vps của bạn
 ![img](./images/Status-Near-06.png)
 
 Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra. Từ giờ khi có biến động liên quan đến Node bạn sẽ nhận được thông báo trên telegram.
+
+![img](./images/Status-Near-07.png)
 
 Như vậy mình đã giới thiệu đầy đủ cho bạn 3 cách để theo dõi trạng thái của Node. Hiện tại mình đang dùng cả 3 cách này. Các bạn chọn cho mình một cách phù hợp nhé!
 
