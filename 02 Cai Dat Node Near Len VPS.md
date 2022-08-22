@@ -13,11 +13,11 @@ Google Cloud đang có chương trình dùng thử cho khách hàng mới, bạn
 
 Cấu hình mình sử dụng là 4 vCPU, 16GB Ram, 500GB SSD, vùng có ký hiệu Low CO2 (chọn ở khu vực này giá sẽ rẻ hơn các khu vực khác). Giá VPS là hơn 200 USD/tháng.
 
-Bạn truy cập vào console của Google Cloud, kích vào dấu 3 gạch, chọn Compute Engine, chọn VM instances
+Bạn truy cập vào console của Google Cloud, kích vào dấu 3 gạch, chọn Compute Engine, chọn VM instances.
 
 ![img](./images/Google-cloud-01.png)
 
-Kích vào "Create instance" để khởi tạo vps
+Kích vào "Create instance" để khởi tạo vps.
 
 ![img](./images/Google-cloud-02.png)
 ![img](./images/Google-cloud-03.png)
@@ -40,7 +40,7 @@ lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
 ```
 > Supported
 
-Nếu VPS của bạn hiểu thị "Supported" là ok
+Nếu VPS của bạn hiểu thị "Supported" là ok.
 
 ![img](./images/Near-cli-01.png)
 
@@ -57,7 +57,7 @@ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 sudo apt install build-essential nodejs
 ```
-Khi được hỏi "Do you want to continue? [Y/n]", bạn nhấn Y và Enter để tiếp tục
+Khi được hỏi "Do you want to continue? [Y/n]", bạn nhấn Y và Enter để tiếp tục.
 
 ![img](./images/Near-cli-02.png)
 
@@ -98,11 +98,11 @@ source $HOME/.bash_profile
 ```
 ![img](./images/Near-cli-06.png)
 
-Để kiểm tra xem Near CLI đã hoạt động chưa bạn thực hiện lệnh
+Để kiểm tra xem Near CLI đã hoạt động chưa bạn thực hiện lệnh.
 ```
 near proposals
 ```
-Kết quả hiển như các địa chỉ pool như trong ảnh là ok
+Kết quả hiển như các địa chỉ pool như trong ảnh là ok.
 
 ![img](./images/Near-cli-07.png)
 
@@ -162,7 +162,7 @@ git checkout <commit>
 
 #### Biên dịch Nearcore
 
-Trong thư mục nearcore các bạn chạy lệnh
+Trong thư mục nearcore các bạn chạy lệnh.
 ```
 cargo build -p neard --release --features shardnet
 ```
@@ -172,7 +172,7 @@ Quá trình này mất khoảng 10 - 20 phút, thời gian phụ thuộc vào c�
 
 #### Tạo thư mục làm việc
 
-Trong thư mục nearcore các bạn chạy lệnh
+Trong thư mục nearcore các bạn chạy lệnh.
 ```
 ./target/release/neard --home ~/.near init --chain-id shardnet --download-genesis
 ```
@@ -188,7 +188,7 @@ wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotoco
   
 #### Khởi chạy Node
   
-Trong thư mục nearcore các bạn chạy lệnh
+Trong thư mục nearcore các bạn chạy lệnh.
   
 ```
 cd ~/nearcore
