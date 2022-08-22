@@ -1,6 +1,5 @@
-## Chuẩn bị VPS (VPS Google Cloud)
-Các bạn chuẩn bị 01 VPS có cấu hình theo yêu cầu của bên Near:
-
+## Mua VPS (VPS Google Cloud)
+Bạn mua 01 VPS có cấu hình theo yêu cầu của bên Near:
 
 | Hardware       | Chunk-Only Producer  Specifications                                   |
 | -------------- | ---------------------------------------------------------------       |
@@ -12,9 +11,16 @@ Cài đặt hệ điều hành ubuntu 20.04 LTS.
 
 Google Cloud đang có chương trình dùng thử cho khách hàng mới, bạn sẽ nhận được khoản tín dụng 300 USD để sử dụng trong 3 tháng. Nên trong bài viết này mình hướng dẫn các bạn cài đặt Node Near trên Google Cloud để tận dụng khoản tín dụng này.
 
-Cấu hình mình sử dụng là 4 vCPU, 16GB Ram, 500GB SSD khu lực Low CO2 (chọn ở khu vực này giá sẽ rẻ hơn các khu vực khác). Giá VPS là hơn 200 USD/tháng.
+Cấu hình mình sử dụng là 4 vCPU, 16GB Ram, 500GB SSD, vùng có ký hiệu Low CO2 (chọn ở khu vực này giá sẽ rẻ hơn các khu vực khác). Giá VPS là hơn 200 USD/tháng.
 
-![img](./image/Google-Cloud-01.png)
+Bạn truy cập vào console của Google Cloud, kích vào dấu 3 gạch, chọn Compute Engine, chọn VM instances
+
+![img](./images/Google-cloud-01.png)
+
+Kích vào "Create instance" để khởi tạo vps
+![img](./images/Google-cloud-02.png)
+![img](./images/Google-cloud-03.png)
+Bạn điền tên vps lựa chọn các thông số vps sau đó kích "CREATE" để khởi tạo vps.
 
 Sau khi khởi tạo xong vps bạn sẽ được chuyển đến trang Console của Google Cloud. Để SSH vào VPS thực hiện lệnh cài đặt, bạn kích vào mũi tên xuống bên cạnh chữ "SSH" chọn "Open in browser window" sẽ có một cửa sổ trình duyệt mở ra. Bạn đã có thế bắt đầu thực hiện cách lệnh cài đặt ở trên cửa sổ trình duyệt mới.
 
