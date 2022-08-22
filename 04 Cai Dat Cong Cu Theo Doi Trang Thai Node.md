@@ -70,11 +70,14 @@ SSH vào VPS và thực hiện các lệnh sau
 cd
 
 git clone https://github.com/Klesh-/near-protocol-node-telegram-notifications.git
-
+```
+```
 cd near-protocol-node-telegram-notifications
-
+```
+```
 cp .env.example .env
-
+```
+```
 sudo chmod +x ./report_node_status.sh
 ```
 ![img](./images/Status-Near-04.png)
