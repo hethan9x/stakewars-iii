@@ -82,7 +82,7 @@ sudo npm install -g near-cli
 ```
 ![img](./images/Near-cli-04.png)
 
-Update phiên bản của Near-CLI
+Update phiên bản của Near-Cli
 
 ![img](./images/Near-cli-05.png)
 
@@ -102,7 +102,7 @@ source $HOME/.bash_profile
 ```
 near proposals
 ```
-Kết quả hiển như các địa chỉ pool như trong ảnh là ok.
+Kết quả hiển như các địa chỉ như trong ảnh là ok.
 
 ![img](./images/Near-cli-07.png)
 
