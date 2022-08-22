@@ -125,7 +125,7 @@ Khi được hỏi "Do you want to continue? [Y/n]", bạn bấm Y và Enter đ�
 USER_BASE_BIN=$(python3 -m site --user-base)/bin
 export PATH="$USER_BASE_BIN:$PATH"
 ```
-![img](./image/Node-Near-01.png)
+![img](./images/Node-Near-01.png)
 
 #### Cài đặt Building env
 ```
@@ -139,7 +139,7 @@ Nếu bạn thấy thông báo lỗi, gõ Y và Enter để tiếp tục.
 
 Sau đó gõ 1 và Enter để tiếp tục cài đặt.
 
-![img](./image/Node-Near-02.png)
+![img](./images/Node-Near-02.png)
 
 #### Tạo môi trường
 ```
@@ -158,7 +158,7 @@ Mã commit sẽ thay đổi theo thời gian. Các bạn lấy mã commit [tại
 git checkout <commit>
 ```
 
-![img](./image/Node-Near-03.png)
+![img](./images/Node-Near-03.png)
 
 #### Biên dịch Nearcore
 
@@ -168,7 +168,7 @@ cargo build -p neard --release --features shardnet
 ```
 Quá trình này mất khoảng 10 - 20 phút, thời gian phụ thuộc vào cấu hình VPS
 
-![img](./image/Node-Near-04.png)
+![img](./images/Node-Near-04.png)
 
 #### Tạo thư mục làm việc
 
@@ -176,7 +176,7 @@ Trong thư mục nearcore các bạn chạy lệnh
 ```
 ./target/release/neard --home ~/.near init --chain-id shardnet --download-genesis
 ```
-![img](./image/Node-Near-05.png)  
+![img](./images/Node-Near-05.png)  
 
 #### Tạo file config.json
   
@@ -184,7 +184,7 @@ Trong thư mục nearcore các bạn chạy lệnh
 rm ~/.near/config.json
 wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json
 ```
-![img](./image/Node-Near-06.png)
+![img](./images/Node-Near-06.png)
   
 #### Khởi chạy Node
   
@@ -194,7 +194,7 @@ Trong thư mục nearcore các bạn chạy lệnh
 cd ~/nearcore
 ./target/release/neard --home ~/.near run
 ```
-![img](./image/Node-Near-07.png)
+![img](./images/Node-Near-07.png)
   
 VPS đang tiến hành đồng bộ, các bạn để VPS tự chạy cho đến khi Headers tải đạt 100%. Việc này có thể mất hơn 1 giờ.
 
