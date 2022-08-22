@@ -326,13 +326,13 @@ KillMode=mixed
 [Install]
 WantedBy=multi-user.target
 ```
-Trong đó <USER> là tên người dùng của vps của bạn
+Trong đó ```<USER>``` là tên người dùng của vps của bạn
 
-![img](./image/Kich-Hoat-Node-09.png)
+![img](./images/Active-Node-Near-11.png)
   
-Sau đó bạn nhấn Ctr + O và enter để lưu. Nhấn Ctrl + X để thoát
+Sau đó bạn nhấn Ctr + O và Enter để lưu. Nhấn Ctrl + X để thoát
 
-![img](./image/Kich-Hoat-Node-10.png)
+![img](./images/Active-Node-Near-12.png)
   
 ### Khởi chạy Node Near
   
