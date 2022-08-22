@@ -14,11 +14,11 @@ Truy cập file validator_key.json để lấy public key
 nano ~/.near/validator_key.json
 ```
   
-Nếu kết quả chạy lệnh trên màn hình hiển thị "The staking pool xxxx.factory.shardnet.near was successfully created" hoặc "The staking pool account ID already exists" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
+Nếu kết quả hiển thị "The staking pool xxxx.factory.shardnet.near was successfully created" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
   
 ![img](./images/Staking-near-01.png)
 
-Hiện tại mỗi lần tạo staking pool bạn sẽ bị trừ 30 near trong ví.
+Mỗi lần tạo staking pool bạn sẽ bị trừ 30 near trong ví.
   
 Vì RPC của near có lúc sẽ quá tải gây ra tình trạng tạo staking pool lỗi. Nếu tạo lỗi bạn tạo lại bằng lệnh phía trên.
 
@@ -30,7 +30,7 @@ near call <pool_id> deposit_and_stake --amount <amount> --accountId <accountId> 
 * Thay ```<amount>``` bằng số lượng near bạn muốn stake
 * Thay ```<accountId>``` bằng xxxx.shardnet.near. xxxx là địa chỉ ví của bạn
   
-![img](./image/Staking-pool-02.png)
+![img](./images/Staking-near-02.png)
   
 ### Trở thành trình xác thực Validator
   
@@ -42,9 +42,9 @@ near call <pool_id> deposit_and_stake --amount <amount> --accountId <accountId> 
 near validators next | grep "seat price"
 ```
 
-![img](./image/seat-price.png)
+![img](./images/Staking-near-03.png)
   
-Seat price = 1,833 thời điểm hiện tại bạn cần stake tối thiểu 1,833 Near
+Seat price = 2,430 thời điểm hiện tại bạn cần stake tối thiểu 2,430 Near
 
 Do có quá nhiều account cheat số NEAR mạng test này nên team dev đã thay đổi quy trình, bây giờ bạn cần vào Discord của NEAR #stake-war phần #stake-wars-tokens_delegation. Gửi địa chỉ ví shardnet cùng pool id của bạn ở channel và chờ team sẽ gửi đủ số NEAR vào validator của bạn.
   
