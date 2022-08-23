@@ -50,7 +50,9 @@ Do có quá nhiều account cheat số NEAR mạng test này nên team dev đã 
   
 Sau khi có Near trong ví bạn thực hiện stake Near vào staking pool của mình bằng cách ở trên. 
 
-### Unstake NEAR
+### Hướng dẫn một số lệnh giao dịch
+
+#### Unstake NEAR
   
 ```
 near call <pool_id> unstake '{"amount": "<amount yoctoNEAR>"}' --accountId <accountId> --gas=300000000000000
@@ -64,7 +66,7 @@ Unstake tất cả
 near call <pool_id> unstake_all --accountId <accountId> --gas=300000000000000
 ```
 
-### Withdraw
+#### Withdraw
 
 Sau khi unstake thành công bạn cần chờ 2-3 epochs để hoàn thành việc unstake. Sau khi hoàn thành bạn có thể withdraw về ví mình bằng lệnh
 ```
@@ -77,7 +79,7 @@ Withdraw tất cả
 near call <pool_id> withdraw_all --accountId <accountId> --gas=300000000000000
 ```
 
-### Ping
+#### Ping
   
 Một ping đưa ra một đề xuất mới và cập nhật số dư đặt cược cho người ủy quyền của bạn. Một ping nên được phát hành mỗi kỷ nguyên để cập nhật phần thưởng được báo cáo.
 
@@ -91,8 +93,20 @@ Tổng số dư
 near view <pool_id> get_account_total_balance '{"account_id": "<accountId>"}'
 ```
   
-### Số lượng đã stake
+#### Số lượng đã stake
 
 ```
 near view <pool_id> get_account_staked_balance '{"account_id": "<accountId>"}'
+```
+
+#### Số lượng đã unstake
+  
+```
+near view <pool_id> get_account_unstaked_balance '{"account_id": "<accountId>"}'
+```
+
+#### Số lượng sẵn sàng để Withdrawal
+  
+```
+near view <pool_id> is_account_unstaked_balance_available '{"account_id": "<accountId>"}'
 ```
