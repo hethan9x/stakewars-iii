@@ -76,3 +76,23 @@ Withdraw tất cả
 ```
 near call <pool_id> withdraw_all --accountId <accountId> --gas=300000000000000
 ```
+
+### Ping
+  
+Một ping đưa ra một đề xuất mới và cập nhật số dư đặt cược cho người ủy quyền của bạn. Một ping nên được phát hành mỗi kỷ nguyên để cập nhật phần thưởng được báo cáo.
+
+```
+near call <pool_id> ping '{}' --accountId <accountId> --gas=300000000000000
+```
+
+Tổng số dư
+  
+```
+near view <pool_id> get_account_total_balance '{"account_id": "<accountId>"}'
+```
+  
+### Số lượng đã stake
+
+```
+near view <pool_id> get_account_staked_balance '{"account_id": "<accountId>"}'
+```
