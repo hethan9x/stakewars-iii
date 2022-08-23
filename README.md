@@ -21,3 +21,5 @@ Khi hoàn thành thử thách bạn sẽ nhận được điểm thưởng DNP h
 
 
 #### Mình đã giới thiệu sơ qua về chương trình Stake Wars III, bây giờ chúng ta tiến hành thực hiện các thử thách của chương trình!!!
+
+[Mount your Staking Pool](./01 Tao Vi Shardnet.md).
