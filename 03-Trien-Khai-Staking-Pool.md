@@ -110,3 +110,14 @@ near view <pool_id> get_account_unstaked_balance '{"account_id": "<accountId>"}'
 ```
 near view <pool_id> is_account_unstaked_balance_available '{"account_id": "<accountId>"}'
 ```
+  
+#### Pause / Resume Staking
+
+Pause
+```
+near call <pool_id> pause_staking '{}' --accountId <accountId>
+```
+Resume
+```
+near call <pool_id> resume_staking '{}' --accountId <accountId>
+```
