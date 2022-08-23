@@ -121,3 +121,8 @@ Resume
 ```
 near call <pool_id> resume_staking '{}' --accountId <accountId>
 ```
+
+#### Như vậy bạn đã hoàn thành việc cài đặt Node Near và hoàn thành thử thách 1 và 2 của chương trình. Bạn sẽ nhận được số điểm là 30 UNP.
+
+#### Chuyển Tới Triển Khai Staking Pool 🚀
+[Triển khai Staking Pool](./03-Trien-Khai-Staking-Pool.md)
