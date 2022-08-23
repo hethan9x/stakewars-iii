@@ -22,5 +22,5 @@ Tìm từ khoá theo đúng yêu cầu trong 12 ký tự vừa lưu ở bước 
 
 Như vậy các bạn đã tạo xong ví Shardnet. Tiếp theo chúng ta sẽ tiến hành cài đặt node.
 
-### Chuyển tới Cài Đặt Node Near 🚀
-[Cài đặt Node Near](./02-Cai-Dat-Node-Near-Len-VPS.md).
+### Chuyển Tới Cài Đặt Node Near 🚀
+[Cài đặt Node Near](./02-Cai-Dat-Node-Near-Len-VPS.md)
