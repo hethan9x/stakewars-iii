@@ -276,7 +276,7 @@ Theo thông báo ngày 12/8/2022 trên discord của dự án. Các bạn cần 
 Tìm “public_key” trong file  node_key.json
 
 ```
-nano ~/.near/node_key.json
+cat ~/.near/node_key.json
 ```
 ![img](./images/Active-Node-Near-09.png)
 
