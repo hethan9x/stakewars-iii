@@ -124,5 +124,5 @@ Nhấn Ctrl + O và enter để lưu file lại. Bấm Ctrl + X để thoát ra.
 
 Như vậy mình đã giới thiệu đầy đủ cho bạn 3 cách để theo dõi trạng thái của Node. Hiện tại mình đang dùng cả 3 cách này. Các bạn chọn cho mình một cách phù hợp nhé!
 
-#### Sau khi hoàn thành việc khởi tạo một trình xác nhận bạn sẽ nhận được số điểm là 15 UNP (tương đương với 15 near được mở khoá)
+#### Bạn đã hoàn thành thử thách 4. Bạn sẽ nhận được số điểm là 15 UNP.
 
