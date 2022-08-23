@@ -22,6 +22,6 @@ Khi hoàn thành thử thách bạn sẽ nhận được điểm thưởng DNP h
 
 #### Mình đã giới thiệu sơ qua về chương trình Stake Wars III, bây giờ chúng ta tiến hành thực hiện các thử thách của chương trình!!!
 
-#### Chuyển Đến Tạo Ví Shardnet 🚀
+#### Chuyển Tới Tạo Ví Shardnet 🚀
 [Tạo ví Shartnet](./01-Tao-Vi-Shardnet.md)
 
