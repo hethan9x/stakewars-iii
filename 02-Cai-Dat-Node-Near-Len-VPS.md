@@ -371,4 +371,7 @@ journalctl -n 100 -f -u neard
 
 ![img](./images/Active-Node-Near-13.png)
 
-#### Sau khi hoàn thành việc khởi tạo một trình xác nhận bạn sẽ nhận được số điểm là 30 UNP (tương đương với 30 near được mở khoá)
+#### Như vậy bạn đã hoàn thành việc cài đặt Node Near, bạn đã trở thành một validator và hoàn thành thử thách 1 và 2 của chương trình. Bạn đã nhận được số điểm là 30 UNP.
+
+#### Chuyển Tới Triển Khai Staking Pool 🚀
+[Triển khai Staking Pool](./03-Trien-Khai-Staking-Pool.md)
