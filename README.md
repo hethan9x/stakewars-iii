@@ -20,4 +20,4 @@ Các thử thách của chương trình liên quan đến việc thiết lập v
 Khi hoàn thành thử thách bạn sẽ nhận được điểm thưởng DNP hoặc UNP hoặc cả 2 loại. Bạn xem bảng thống kê điểm thưởng của từng thử thách tại: https://github.com/near/stakewars-iii/blob/main/challenges/challenge-summary.md
 
 
-
+##### Mình đã giới thiệu sơ qua về chương trình Stake Wars III, bây giờ chúng ta tiến hành thực hiện các thử thách của chương trình!!!
