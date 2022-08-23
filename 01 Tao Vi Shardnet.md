@@ -22,4 +22,4 @@ Tìm từ khoá theo đúng yêu cầu trong 12 ký tự vừa lưu ở bước 
 
 Như vậy các bạn đã tạo xong ví Shardnet. Tiếp theo chúng ta sẽ tiến hành cài đặt node.
 
-[Mount your Staking Pool](./02 Cai Dat Node Near Len VPS.md).
+[Mount your Staking Pool](./02-Cai-Dat-Node-Near-Len-VPS.md).
