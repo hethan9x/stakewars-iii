@@ -1,4 +1,3 @@
-# stakewars-iii
 ## Hướng dẫn tham gia Stake Wars III trên NEAR
 
 Khi tham gia Stake Wars III bạn và trở thành chunk-only producers, bạn sẽ có cơ hội nhận phần thưởng tối đa 50 nghìn NEAR stake được mở khoá trong vòng 1 năm!
