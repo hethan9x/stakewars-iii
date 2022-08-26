@@ -11,7 +11,7 @@ near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool 
 
 Truy cập file validator_key.json để lấy public key
 ```
-nano ~/.near/validator_key.json
+cat ~/.near/validator_key.json
 ```
   
 Nếu kết quả hiển thị "The staking pool xxxx.factory.shardnet.near was successfully created" có nghĩa là bạn đã tạo thành công Staking Pool của mình.
