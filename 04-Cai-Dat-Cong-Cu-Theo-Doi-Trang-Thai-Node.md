@@ -46,7 +46,6 @@ curl -r -s -d '{"jsonrpc": "2.0", "method": "validators", "id": "dontcare", "par
 ### Theo dõi trạng thái của node bằng bot thông báo trên Telegram
 
 Mình sẽ hướng dẫn các bạn sử dụng script của Klesh, setup bot Telegram sẽ báo mỗi khi node của bạn có sự thay đổi như khi node ONLINE / KICKED OUT / Đang Validator … tất cả sẽ thông báo về Telegram của bạn.
-"Nguồn: https://github.com/Klesh-/near-protocol-node-telegram-notifications"
 
 Bạn cần có tài khoản teleram, việc tạo tài khoản mình không hướng dẫn vì khi tham gia vào crypto chắc chắn ai cũng có telegram rồi.
 
@@ -70,7 +69,7 @@ SSH vào VPS và thực hiện các lệnh sau
 cd
 ```
 ```
-git clone https://github.com/Klesh-/near-protocol-node-telegram-notifications.git
+git clone https://github.com/hethan9x/near-node-telegram-notifications.git
 ```
 ```
 cd near-protocol-node-telegram-notifications
